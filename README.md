@@ -11,7 +11,9 @@ Run the program via: `python3 ./G17-Sh3llz.py`
 
 ![Menu](/Images/Sh3llz_Menu.png)
 
-Optional: Make the file executable by using: `chmod +x G17Sh3llz.py` and just run the program any time that you need it by copying it into the following directory: `cp G17-Sh3llz.py /usr/local/bin/G17-Sh3llz.py`
+Optional: Make the file executable by using: `chmod +x G17Sh3llz.py` and just run the program any time that you need it by making an alias within the **.bashrc** file. 
+
+Example: `alias shells='python3 /path/to/G17-Sh3llz.py'`
 
 
 Select from any of the listed menu options and you will be prompted for input. Once finished, just copy the output.
